@@ -1,0 +1,107 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    color: #333;
+    padding-bottom: 60px;
+}
+
+/* Header */
+.header {
+    background-color: #001f3f;
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.menu ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    transition: background 0.3s, color 0.3s;
+}
+
+.menu a:hover {
+    background-color: #0050a0;
+    border-radius: 5px;
+}
+
+.menu .active {
+    background-color: #0074D9;
+    border-radius: 5px;
+}
+
+/* Main content */
+.contenido {
+    max-width: 900px;
+    margin: 3rem auto;
+    padding: 0 1rem;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.05);
+}
+
+.titulo h1 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+
+.titulo p {
+    font-size: 0.9rem;
+    color: #777;
+    margin-bottom: 2rem;
+}
+
+.texto h2 {
+    margin-top: 2rem;
+    font-size: 1.2rem;
+    color: #0050a0;
+}
+
+.texto p,
+.texto ul {
+    margin-top: 0.5rem;
+    font-size: 1rem;
+}
+
+.texto ul {
+    padding-left: 1.5rem;
+}
+
+.texto li {
+    margin-bottom: 0.5rem;
+}
+
+/* Footer */
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #001f3f;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+    font-size: 0.9rem;
+}
